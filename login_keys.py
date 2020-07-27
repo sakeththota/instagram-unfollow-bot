@@ -1,2 +1,2 @@
-USERNAME = '' #your instagram username
-PASS = '' #your instagram password
+USERNAME = 'ssakethh' #your instagram username
+PASS = 'Bloons1748$' #your instagram password
