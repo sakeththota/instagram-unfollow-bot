@@ -1,5 +1,4 @@
 from time import sleep
-from login_keys import *
 from InstagramAPI import InstagramAPI
 
 #returns a list of all followers
@@ -39,8 +38,8 @@ def getSnakes(followers, following):
             snakes[followed['username']] = followed['pk']
     return snakes
 
-def getRidOfThoseSnakes():
-    api = InstagramAPI(USERNAME, PASS)
+def getRidOfThoseSnakes(usernm, passwd):
+    api = InstagramAPI(usernm, passwd)
     api.login()
     user = api.username_id
     followers = getFollowers(api, user)
@@ -59,4 +58,6 @@ def getRidOfThoseSnakes():
     print("done (:")
     '''
 
-getRidOfThoseSnakes()
+username = input("Enter your Instagram username: ")
+password = input("Enter your Instagram password: ")
+getRidOfThoseSnakes(username, password)
