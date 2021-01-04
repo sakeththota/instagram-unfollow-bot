@@ -29,6 +29,6 @@ pip install -r requirements.txt
 ### Usage
 * run the program
 ```bash
-python3 main.py
+python3 unfollow.py
 ```
 * enter login information when prompted
