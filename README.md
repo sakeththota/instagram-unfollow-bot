@@ -12,14 +12,12 @@ This project uses a library for Facebook’s Instagram API by https://github.com
 * venv (*recommended*)
 ```bash
 python3 -m venv env
-```
-* Mac OS / Linux
-```bash
+
+# Mac OS / Linux
 source env/bin/activate
-```
-* Windows
-```
-.\env\Scripts\activate	
+
+# Windows
+.\env\Scripts\activate
 ```
 
 * installing required packages
