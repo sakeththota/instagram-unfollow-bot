@@ -7,20 +7,23 @@ This project uses a library for Facebook’s Instagram API by https://github.com
 ## Getting Started
 ### Prerequisites
 * python
+* 
+### Setup
+* venv (*recommended*)
 ```bash
-brew install python
-```
-* virtual environment (*optional*)
-```bash
-pip install virtualenv
+python3 -m venv env
 ```
 
-### Setup
-* for virtualenv users only
+Mac OS / Linux
 ```bash
-virtualenv env
-source env/bin/activate 
+source env/bin/activate
 ```
+
+Windows
+```
+.\env\Scripts\activate
+```
+
 * installing required packages
 ```bash
 pip install -r requirements.txt
@@ -31,4 +34,5 @@ pip install -r requirements.txt
 ```bash
 python3 unfollow.py
 ```
+
 * enter login information when prompted
