@@ -7,21 +7,19 @@ This project uses a library for Facebook’s Instagram API by https://github.com
 ## Getting Started
 ### Prerequisites
 * python
-* 
+
 ### Setup
 * venv (*recommended*)
 ```bash
 python3 -m venv env
 ```
-
-Mac OS / Linux
+* Mac OS / Linux
 ```bash
 source env/bin/activate
 ```
-
-Windows
+* Windows
 ```
-.\env\Scripts\activate
+.\env\Scripts\activate	
 ```
 
 * installing required packages
